@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pt.brunojesus.jogodogalo.gui","l":"GameWindow"},{"p":"pt.brunojesus.jogodogalo.gui","l":"IBoard"}];updateSearchResults();
