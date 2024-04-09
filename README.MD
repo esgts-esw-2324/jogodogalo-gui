@@ -24,23 +24,23 @@ public interface IBoard {
 Add `mvn.brunojesus.pt` repository to your project's `pom.xml` `<distributionManagement>` section:
 
 ```xml
-	<distributionManagement>
-        <repository>
-            <id>mvn-brunojesus</id>
-            <name>Bruno Jesus MVN Repo</name>
-            <url>https://mvn.brunojesus.pt/releases</url>
-        </repository>
-    </distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>mvn-brunojesus</id>
+        <name>Bruno Jesus MVN Repo</name>
+        <url>https://mvn.brunojesus.pt/releases</url>
+    </repository>
+</distributionManagement>
 ```
 
 Add the dependency to your project under `<dependencies>`:
 
 ```xml
-    <dependencies>
-		<dependency>
-			<groupId>pt.brunojesus.jogodogalo</groupId>
-			<artifactId>gui</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-	</dependencies>
+<dependencies>
+    <dependency>
+        <groupId>pt.brunojesus.jogodogalo</groupId>
+        <artifactId>gui</artifactId>
+        <version>0.0.1</version>
+    </dependency>
+</dependencies>
 ```
