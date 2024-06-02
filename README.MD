@@ -21,16 +21,16 @@ public interface IBoard {
 
 ## Installing
 
-Add `mvn.brunojesus.pt` repository to your project's `pom.xml` `<distributionManagement>` section:
+Add `mvn.brunojesus.pt` repository to your project's `pom.xml` `<repositories>` section:
 
 ```xml
-<distributionManagement>
+<repositories>
     <repository>
         <id>mvn-brunojesus</id>
         <name>Bruno Jesus MVN Repo</name>
         <url>https://mvn.brunojesus.pt/releases</url>
     </repository>
-</distributionManagement>
+</repositories>
 ```
 
 Add the dependency to your project under `<dependencies>`:
